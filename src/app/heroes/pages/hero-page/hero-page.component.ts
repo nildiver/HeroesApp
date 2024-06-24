@@ -33,4 +33,7 @@ export class HeroPageComponent implements OnInit {
           return;
       })
   }
+   gotBack():void{
+    this.router.navigateByUrl('heroes/list')
+   }
 }
