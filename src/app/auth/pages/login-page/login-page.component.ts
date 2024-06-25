@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login-page',
@@ -7,5 +8,12 @@ import { Component } from '@angular/core';
   ]
 })
 export class LoginPageComponent {
+  constructor(private authService:AuthService){}
 
+  onLongin():void{
+    this.authService.login('nilton@gmail.com',  '123456')
+    .subscribe(user =>{
+
+    })
+  }
 }

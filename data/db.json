@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "id": 1,
-      "usuario": "John Doe",
+      "id": "1",
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -166,6 +166,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "marvel-Colossus",
+      "superhero": "Colossus",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Daniel cudmore",
+      "first_appearance": "comics #42",
+      "characters": "Daniel cudmore",
+      "alt_img": "../../assets/heroes/marvel-colossus.jpg"
+    },
+    {
+      "id": "",
+      "superhero": "Striker StormNinja",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Hiury hiuy senko",
+      "first_appearance": "Marvel",
+      "characters": "Hiury hiuy senko",
+      "alt_img": "https://i.pinimg.com/originals/e5/04/63/e5046370624dcc18d265f985e1bb54f2.jpg"
     }
   ]
 }
